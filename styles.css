@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  font-size:larger;
+}
+
+.w {
+  background-image: linear-gradient(rgba(58, 58, 179, 0.5), rgba(194, 194, 66, 0.5)),
+  url("images/tom1.png");
+  cursor: url("images/drum-set.svg"), pointer;
+}
+
+.a {
+  background-image: linear-gradient(rgba(58, 58, 179, 0.5), rgba(194, 194, 66, 0.5)),
+  url("images/tom2.png");
+  cursor: url("images/drum-set.svg"), pointer;
+}
+
+.s {
+  background-image: linear-gradient(rgba(58, 58, 179, 0.5), rgba(194, 194, 66, 0.5)),
+  url("images/tom3.png");
+  cursor: url("images/drum-set.svg"), pointer;
+}
+
+.d {
+  background-image: linear-gradient(rgba(58, 58, 179, 0.5), rgba(194, 194, 66, 0.5)),
+  url("images/tom4.png");
+  cursor: url("images/drum-set.svg"), pointer;
+}
+
+.j {
+  background-image: linear-gradient(rgba(58, 58, 179, 0.5), rgba(194, 194, 66, 0.5)),
+  url("images/snare.png");
+  cursor: url("images/drum-set.svg"), pointer;
+}
+
+.k {
+  background-image: linear-gradient(rgba(58, 58, 179, 0.5), rgba(194, 194, 66, 0.5)),
+  url("images/crash.png");
+  cursor: url("images/drum-set.svg"), pointer;
+}
+
+.l {
+  background-image: linear-gradient(rgba(58, 58, 179, 0.5), rgba(194, 194, 66, 0.5)),
+  url("images/kick.png");
+  cursor: url("images/drum-set.svg"), pointer;
+}
+
+.set {
+  margin:10% auto;
+  
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: white;
+}
